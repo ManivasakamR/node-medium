@@ -2,7 +2,7 @@
 An open-source node module to query Medium's users, collections and posts.
 Now we can finally use our Medium posts elsewhere.
 
-**Warning!** As of now, this is a private repository, due to Medium's [ToS](https://medium.com/policy/medium-terms-of-service-9db0094a1e0f). If anyone thinks it is safe to publish this repository publicly, I will do so.
+~~**Warning!** As of now, this is a private repository, due to Medium's [ToS](https://medium.com/policy/medium-terms-of-service-9db0094a1e0f). If anyone thinks it is safe to publish this repository publicly, I will do so.~~
 
 ## Une Hommage Courte
 The Medium team has created something **special**. A beautiful and stunning web-service which reinvents blogging and brings it to a whole new level!
