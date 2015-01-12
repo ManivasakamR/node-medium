@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "An open-source node module to query Medium's users, collections and posts.",
   "main": "./index.js",
-  "repository": "git://github.com/philplckthun/node-medium.git",
+  "repository": "git@github.com:philplckthun/node-medium.git",
   "author": "Phil Plückthun <gadschon@gmail.com>",
   "readmeFilename": "README.md"
 }

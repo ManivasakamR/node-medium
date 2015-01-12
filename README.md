@@ -13,8 +13,6 @@ Medium is nothing less than the **best** blogging platform ever and the rapidly 
 
 ## Install
 
-Currently not available yet!
-
 ```
 npm install node-medium
 ```
