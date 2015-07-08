@@ -58,7 +58,7 @@ exports.getCollection = (collection, callback) ->
   exports.rest 'medium.com', '/' + collection, 'GET', (data) ->
     if data.success
       posts = []
-      for p in data.payload.posts
+      for p in data.payload.references.Post
         posts.push
           'id': p.id,
           'title': p.title,
