@@ -50,6 +50,7 @@ exports.getPost = (collection, id, callback) ->
         'author': author
         'collection': collection
         'paragraphs': paragraphs
+        'inResponseToPostId': data.payload.value.inResponseToPostId
     else
       callback
         'success': false
