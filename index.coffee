@@ -50,6 +50,7 @@ exports.getPost = (collection, id, callback) ->
         'author': author
         'collection': collection
         'paragraphs': paragraphs
+        'inResponseToPostId': data.payload.value.inResponseToPostId
     else
       callback
         'success': false
@@ -58,7 +59,7 @@ exports.getCollection = (collection, callback) ->
   exports.rest 'medium.com', '/' + collection, 'GET', (data) ->
     if data.success
       posts = []
-      for p in data.payload.posts
+      for p in data.payload.references.Post
         posts.push
           'id': p.id,
           'title': p.title,
